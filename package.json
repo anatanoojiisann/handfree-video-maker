@@ -9,7 +9,8 @@
     "ui": "vite --host 0.0.0.0",
     "generate": "tsx src/cli/index.ts",
     "check": "tsc --noEmit",
-    "install:browsers": "playwright install"
+    "install:browsers": "playwright install",
+    "test": "vitest run"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
@@ -23,7 +24,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "vite": "^5.4.19",
-    "zod": "^3.25.76"
+    "zod": "^3.25.76",
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
@@ -33,6 +35,7 @@
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
     "tsx": "^4.20.3",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vitest": "^2.1.8"
   }
 }
