@@ -1,0 +1,2 @@
+import { z } from 'zod';
+export const assetListSchema=z.object({project_id:z.string(),assets:z.array(z.object({scene_id:z.string(),required:z.boolean(),asset_source:z.string(),status:z.enum(['pending','captured','uploaded','generated','missing','approved','rejected','replaced']),local_path:z.string().nullable(),capture_url:z.string().nullable(),asset_prompt:z.string(),estimated_duration_sec:z.number(),notes:z.string()}))});
