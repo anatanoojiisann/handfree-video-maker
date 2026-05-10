@@ -1,0 +1,16 @@
+{
+  "project_title": "BTC 80K: Breakout or Trap?",
+  "language": "en",
+  "platform": "youtube",
+  "aspect_ratio": "16:9",
+  "target_duration_sec": 120,
+  "scenes": [
+    {"scene_id":"scene_001","purpose":"hook","estimated_duration_sec":8,"voiceover":"Bitcoin is back near 80K. But is this real demand, or just another leverage trap?","on_screen_text":"BTC $80K: Breakout or Trap?","visual_type":"title_card","preferred_asset_source":"ai_generated","asset_prompt":"Dramatic crypto title card, BTC near 80K","capture_url":null,"notes":"Opening title visual"},
+    {"scene_id":"scene_002","purpose":"setup","estimated_duration_sec":10,"voiceover":"The answer depends on ETF inflows, liquidation pressure, and leverage overheating.","on_screen_text":"3 Signals to Watch","visual_type":"comparison_card","preferred_asset_source":"none","asset_prompt":"","capture_url":null,"notes":"Signals overview"}
+  ],
+  "title_description_hashtags": {
+    "title": "BTC $80K: Real Breakout or Leverage Trap?",
+    "description": "Bitcoin is back near $80K, but the market may be driven by ETF flows, liquidations, and leverage.",
+    "hashtags": ["#Bitcoin", "#BTC", "#Crypto", "#Trading"]
+  }
+}
